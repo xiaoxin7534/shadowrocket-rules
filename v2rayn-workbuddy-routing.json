@@ -1,0 +1,261 @@
+[
+  {
+    "Id": "9524866705628022663",
+    "OutboundTag": "direct",
+    "Enabled": true,
+    "Remarks": "本地与局域网直连",
+    "Domain": [
+      "geosite:private"
+    ],
+    "Ip": [
+      "geoip:private"
+    ]
+  },
+  {
+    "Id": "2102221503869679469",
+    "OutboundTag": "direct",
+    "Enabled": true,
+    "Remarks": "网络连通性探测",
+    "Domain": [
+      "full:captive.apple.com",
+      "domain:msftconnecttest.com",
+      "domain:msftncsi.com",
+      "full:connectivitycheck.gstatic.com"
+    ]
+  },
+  {
+    "Id": "6547281392801263198",
+    "OutboundTag": "block",
+    "Enabled": true,
+    "Remarks": "QUIC / UDP443 阻断",
+    "Port": "443",
+    "Network": "udp"
+  },
+  {
+    "Id": "3099845499319926573",
+    "OutboundTag": "block",
+    "Enabled": true,
+    "Remarks": "广告与追踪拦截",
+    "Domain": [
+      "geosite:category-ads-all"
+    ]
+  },
+  {
+    "Id": "5866319152540980108",
+    "OutboundTag": "proxy",
+    "Enabled": true,
+    "Remarks": "AI 服务",
+    "Domain": [
+      "geosite:category-ai-!cn",
+      "geosite:openai",
+      "geosite:anthropic",
+      "domain:cursor.com",
+      "domain:cursor.sh",
+      "domain:v0.app",
+      "domain:v0.dev",
+      "domain:bolt.new",
+      "domain:lovable.dev",
+      "domain:manus.im",
+      "domain:gamma.app",
+      "domain:heygen.com",
+      "domain:descript.com",
+      "domain:otter.ai",
+      "domain:perplexity.ai",
+      "domain:perplexity.com",
+      "domain:midjourney.com",
+      "domain:huggingface.co",
+      "domain:hf.co",
+      "domain:poe.com",
+      "domain:x.ai",
+      "domain:grok.com",
+      "domain:mistral.ai",
+      "domain:cohere.com",
+      "domain:together.ai",
+      "domain:groq.com",
+      "domain:openrouter.ai",
+      "domain:fireworks.ai",
+      "domain:deepinfra.com",
+      "domain:replicate.com",
+      "domain:fal.ai",
+      "domain:windsurf.com",
+      "domain:codeium.com",
+      "domain:civitai.com",
+      "domain:ideogram.ai",
+      "domain:lmsys.org",
+      "domain:lmarena.ai",
+      "domain:suno.com",
+      "domain:suno.ai",
+      "domain:runwayml.com",
+      "domain:character.ai",
+      "domain:pi.ai",
+      "domain:stability.ai",
+      "domain:elevenlabs.io",
+      "domain:copilot.microsoft.com",
+      "domain:githubcopilot.com",
+      "domain:workbuddy.ai",
+      "domain:codebuddy.ai",
+      "domain:workbuddy.link",
+      "domain:workbuddy.host"
+    ]
+  },
+  {
+    "Id": "7864582608739527427",
+    "OutboundTag": "proxy",
+    "Enabled": true,
+    "Remarks": "流媒体",
+    "Domain": [
+      "geosite:netflix",
+      "geosite:disney",
+      "geosite:hbo",
+      "geosite:hulu",
+      "geosite:primevideo",
+      "geosite:youtube",
+      "geosite:twitch",
+      "geosite:tiktok",
+      "geosite:spotify",
+      "geosite:soundcloud",
+      "geosite:vimeo",
+      "geosite:dailymotion",
+      "domain:crunchyroll.com",
+      "domain:vrv.co",
+      "domain:fast.com"
+    ]
+  },
+  {
+    "Id": "2086867795837169270",
+    "OutboundTag": "proxy",
+    "Enabled": true,
+    "Remarks": "社交",
+    "Domain": [
+      "geosite:telegram",
+      "geosite:twitter",
+      "geosite:facebook",
+      "geosite:instagram",
+      "geosite:discord",
+      "geosite:reddit",
+      "geosite:pinterest",
+      "geosite:tumblr",
+      "geosite:linkedin",
+      "geosite:whatsapp",
+      "geosite:line",
+      "geosite:signal",
+      "domain:bsky.app",
+      "domain:bsky.social",
+      "domain:threads.net",
+      "domain:threads.com"
+    ]
+  },
+  {
+    "Id": "5798024046714117677",
+    "OutboundTag": "proxy",
+    "Enabled": true,
+    "Remarks": "开发与 Google → 默认代理",
+    "Domain": [
+      "geosite:github",
+      "geosite:google",
+      "domain:gitlab.com",
+      "domain:docker.com",
+      "domain:docker.io",
+      "domain:pypi.org",
+      "domain:npmjs.com",
+      "domain:npmjs.org",
+      "domain:vercel.com",
+      "domain:vercel.app",
+      "domain:netlify.app",
+      "domain:jetbrains.com",
+      "domain:medium.com",
+      "domain:stackoverflow.com"
+    ]
+  },
+  {
+    "Id": "9360584682795593355",
+    "OutboundTag": "proxy",
+    "Enabled": true,
+    "Remarks": "交易与行情",
+    "Domain": [
+      "domain:tradingview.com",
+      "domain:tradingview-widget.com",
+      "domain:tradingviewcdn.com",
+      "domain:binance.com",
+      "domain:binance.us",
+      "domain:binance.me",
+      "domain:binance.cloud",
+      "domain:binanceapi.com",
+      "domain:bnbstatic.com",
+      "domain:bntrace.com",
+      "domain:saasexch.com",
+      "domain:nftstatic.com",
+      "domain:bybit.com",
+      "domain:bybit-static.com",
+      "domain:okx.com",
+      "domain:okex.com",
+      "domain:huobi.com",
+      "domain:htx.com",
+      "domain:gate.io",
+      "domain:gate.com",
+      "domain:kucoin.com",
+      "domain:bitget.com",
+      "domain:mexc.com",
+      "domain:coinbase.com",
+      "domain:kraken.com",
+      "domain:bitfinex.com",
+      "domain:deribit.com",
+      "domain:futunn.com",
+      "domain:moomoo.com",
+      "domain:futustatic.com"
+    ]
+  },
+  {
+    "Id": "8144740530399572345",
+    "OutboundTag": "direct",
+    "Enabled": true,
+    "Remarks": "Apple 与微软直连",
+    "Domain": [
+      "geosite:apple",
+      "geosite:microsoft",
+      "geosite:onedrive",
+      "geosite:bing"
+    ]
+  },
+  {
+    "Id": "6083424544537084801",
+    "OutboundTag": "proxy",
+    "Enabled": true,
+    "Remarks": "游戏社区走代理",
+    "Domain": [
+      "domain:steamcommunity.com"
+    ]
+  },
+  {
+    "Id": "7335912078860405422",
+    "OutboundTag": "direct",
+    "Enabled": true,
+    "Remarks": "游戏商店与下载直连",
+    "Domain": [
+      "domain:steampowered.com",
+      "domain:steamcontent.com",
+      "domain:steamstatic.com",
+      "domain:playstation.net",
+      "domain:xboxlive.com"
+    ]
+  },
+  {
+    "Id": "5277087026753909387",
+    "OutboundTag": "direct",
+    "Enabled": true,
+    "Remarks": "国内直连",
+    "Domain": [
+      "geosite:cn"
+    ],
+    "Ip": [
+      "geoip:cn"
+    ]
+  },
+  {
+    "Id": "8297008285233391982",
+    "OutboundTag": "proxy",
+    "Enabled": true,
+    "Remarks": "兜底代理",
+    "Port": "0-65535"
+  }
+]
