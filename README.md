@@ -12,14 +12,22 @@
 
 ### Shadowrocket
 
+主地址（GitHub 原始文件）：
+
 ```
 https://raw.githubusercontent.com/xiaoxin7534/shadowrocket-rules/main/workbuddy-split.conf
 ```
 
-App 内：**配置 → 右上角 + → 从 URL 下载**，粘贴上面的地址。
+备用地址（jsDelivr CDN，国内网络更稳，缓存约 12 小时）：
+
+```
+https://cdn.jsdelivr.net/gh/xiaoxin7534/shadowrocket-rules@main/workbuddy-split.conf
+```
+
+App 内：**配置 → 右上角 + → 从 URL 下载**，粘贴其中一个地址。
 之后在配置列表里下拉即可更新，无需重复导入。
 
-也可以直接扫码：
+也可以直接扫码（指向备用地址）：
 
 ![二维码](qr-subscribe.png)
 
